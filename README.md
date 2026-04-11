@@ -2,19 +2,19 @@
 
 Layer 15 — Business process impact assessment, transition planning, and readiness confirmation.
 
-## Purpose
+## What this kit does
 
-When a technical solution ships, the business processes it affects need governance too. BPK ensures affected workflows are identified, transitions are planned, and teams are confirmed ready before release.
+When a technical solution ships, the business processes it affects need governance too. This kit ensures affected workflows are identified, transitions are planned, and teams are confirmed ready before release.
 
 ## Artifacts
 
-| Artifact | Purpose | Hard Gates |
+| Artifact | Purpose | Hard gates |
 |----------|---------|------------|
 | Process Impact Assessment (PIA) | What processes change, how, and who is affected | 5 |
 | Transition Plan (TP) | How users move from current to future state | 5 |
 | Readiness Confirmation (RC) | Evidence that teams are actually prepared | 4 |
 
-## Quick Start
+## Getting started
 
 See `docs/playbook.md` for the end-to-end process.
 

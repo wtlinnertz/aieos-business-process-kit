@@ -26,20 +26,18 @@ The specs define the structural requirements. If your organization needs stricte
 
 BPK is optional. Define your organization's criteria for when BPK should be adopted:
 - Always for Preset 1 (New Feature) and Preset 3 (Compliance)
-- Conditionally for Preset 2 (Enhancement) — only when user-facing behavior changes
-- Rarely for Preset 4 (Performance Fix) — only when the fix changes operational procedures
+- Conditionally for Preset 2 (Enhancement): only when user-facing behavior changes
+- Rarely for Preset 4 (Performance Fix): only when the fix changes operational procedures
 
----
 
 ## What Not to Customize
 
-- **Four-file structure** — every artifact type must have exactly spec, template, prompt, validator
-- **Hard gate evaluation format** — validators must produce standardized JSON output
-- **Freeze-before-promote** — PIA must be frozen before TP; TP must be frozen before RC
-- **Session separation** — generation and validation must be separate AI sessions
-- **Governance model** — `docs/governance-model.md` is a synchronized copy; do not edit directly
+- **Four-file structure**: every artifact type must have exactly spec, template, prompt, validator
+- **Hard gate evaluation format**: validators must produce standardized JSON output
+- **Freeze-before-promote**: PIA must be frozen before TP; TP must be frozen before RC
+- **Session separation**: generation and validation must be separate AI sessions
+- **Governance model**: `docs/governance-model.md` is a synchronized copy; do not edit directly
 
----
 
 ## Integration with Existing Change Management
 
@@ -49,4 +47,4 @@ If your organization already has a change management process (ITIL CAB, SAFe cha
 - TP maps to a change implementation plan
 - RC maps to a change readiness review
 
-BPK does not replace your change management process — it provides the structured, governed artifacts that feed into it.
+BPK does not replace your change management process. It provides the structured, governed artifacts that feed into it.

@@ -1,21 +1,20 @@
-# How to Use the Business Process Kit with AI
+# How to use the business process kit with AI
 
 This guide covers AI session setup for generating and validating BPK artifacts.
 
 ---
 
-## General Rules
+## General rules
 
-1. **Separate generation and validation** — Never generate an artifact and validate it in the same AI session.
-2. **Include full upstream artifacts** — Do not summarize the SAD, TDD, or PIA. Provide complete documents.
-3. **Include the spec** — The AI generates and validates against the spec, not from memory.
-4. **Include the template** — The AI follows the template structure for output.
+1. **Separate generation and validation**. Never generate an artifact and validate it in the same AI session.
+2. **Include full upstream artifacts**. Do not summarize the SAD, TDD, or PIA. Provide complete documents.
+3. **Include the spec**. The AI generates and validates against the spec, not from memory.
+4. **Include the template**. The AI follows the template structure for output.
 
----
 
-## Session Setup by Artifact
+## Session setup by artifact
 
-### PIA Generation Session
+### PIA generation session
 
 Provide to the AI:
 1. `docs/prompts/pia-prompt.md`
@@ -27,7 +26,7 @@ Provide to the AI:
 7. Frozen DPRD (if available)
 8. Existing process documentation (if available)
 
-### PIA Validation Session
+### PIA validation session
 
 Provide to the AI:
 1. `docs/validators/pia-validator.md`
@@ -35,7 +34,7 @@ Provide to the AI:
 3. The generated PIA
 4. Frozen SAD and/or TDD (for traceability verification)
 
-### TP Generation Session
+### TP generation session
 
 Provide to the AI:
 1. `docs/prompts/tp-prompt.md`
@@ -47,7 +46,7 @@ Provide to the AI:
 7. Frozen TDD (recommended)
 8. Release timeline from REK (if available)
 
-### TP Validation Session
+### TP validation session
 
 Provide to the AI:
 1. `docs/validators/tp-validator.md`
@@ -55,7 +54,7 @@ Provide to the AI:
 3. The generated TP
 4. Frozen PIA (for scope cross-reference)
 
-### RC Generation Session
+### RC generation session
 
 Provide to the AI:
 1. `docs/prompts/rc-prompt.md`
@@ -68,7 +67,7 @@ Provide to the AI:
 8. Updated SOP references
 9. Stakeholder acknowledgment records
 
-### RC Validation Session
+### RC validation session
 
 Provide to the AI:
 1. `docs/validators/rc-validator.md`
@@ -77,10 +76,9 @@ Provide to the AI:
 4. Frozen TP (for training requirements cross-reference)
 5. Frozen PIA (for process owner cross-reference)
 
----
 
 ## Tips
 
-- **PIA is the foundation** — spend time getting the PIA right. The TP and RC are bounded by it.
-- **Existing process docs help** — if you have current workflow documentation, SOPs, or process maps, provide them to the PIA session. The AI will produce better impact analysis with concrete current-state information.
-- **RC is evidence collection, not generation** — the AI organizes evidence you provide, but the evidence itself (training records, acknowledgments) must come from real activities. The AI cannot fabricate readiness evidence.
+- **PIA is the foundation** - spend time getting the PIA right. The TP and RC are bounded by it.
+- **Existing process docs help** - if you have current workflow documentation, SOPs, or process maps, provide them to the PIA session. The AI will produce better impact analysis with concrete current-state information.
+- **RC is evidence collection, not generation** - the AI organizes evidence you provide, but the evidence itself (training records, acknowledgments) must come from real activities. The AI cannot fabricate readiness evidence.
