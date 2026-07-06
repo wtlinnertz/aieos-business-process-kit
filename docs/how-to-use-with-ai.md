@@ -11,7 +11,6 @@ This guide covers AI session setup for generating and validating BPK artifacts.
 3. **Include the spec**. The AI generates and validates against the spec, not from memory.
 4. **Include the template**. The AI follows the template structure for output.
 
-
 ## Session setup by artifact
 
 ### PIA generation session
@@ -75,7 +74,6 @@ Provide to the AI:
 3. The generated RC
 4. Frozen TP (for training requirements cross-reference)
 5. Frozen PIA (for process owner cross-reference)
-
 
 ## Tips
 

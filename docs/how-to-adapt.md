@@ -29,7 +29,6 @@ BPK is optional. Define your organization's criteria for when BPK should be adop
 - Conditionally for Preset 2 (Enhancement): only when user-facing behavior changes
 - Rarely for Preset 4 (Performance Fix): only when the fix changes operational procedures
 
-
 ## What Not to Customize
 
 - **Four-file structure**: every artifact type must have exactly spec, template, prompt, validator
@@ -37,7 +36,6 @@ BPK is optional. Define your organization's criteria for when BPK should be adop
 - **Freeze-before-promote**: PIA must be frozen before TP; TP must be frozen before RC
 - **Session separation**: generation and validation must be separate AI sessions
 - **Governance model**: `docs/governance-model.md` is a synchronized copy; do not edit directly
-
 
 ## Integration with Existing Change Management
 
