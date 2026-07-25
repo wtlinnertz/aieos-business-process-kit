@@ -4,11 +4,11 @@
 
 | Field | Value |
 |-------|-------|
-| TP ID | TP-{INITIATIVE}-{NNN} |
+| Artifact ID | TP-{INITIATIVE}-{NNN} |
 | Initiative | {full initiative name} |
 | Owner | {team or role responsible for transition execution} |
 | Version | v1.0 |
-| Status | Draft |
+| Status | DRAFT |
 | PIA Reference | {PIA artifact ID} |
 | Governance Model Version | {version from §15 of governance-model.md} |
 | Prompt Version | {prompt file version used} |
