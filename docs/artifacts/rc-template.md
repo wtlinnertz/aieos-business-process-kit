@@ -4,11 +4,11 @@
 
 | Field | Value |
 |-------|-------|
-| RC ID | RC-{INITIATIVE}-{NNN} |
+| Artifact ID | RC-{INITIATIVE}-{NNN} |
 | Initiative | {full initiative name} |
 | Owner | {team or role responsible for readiness confirmation} |
 | Version | v1.0 |
-| Status | Draft |
+| Status | DRAFT |
 | PIA Reference | {PIA artifact ID} |
 | TP Reference | {TP artifact ID} |
 | Governance Model Version | {version from §15 of governance-model.md} |

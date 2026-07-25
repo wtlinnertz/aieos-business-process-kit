@@ -4,11 +4,11 @@
 
 | Field | Value |
 |-------|-------|
-| PIA ID | PIA-{INITIATIVE}-{NNN} |
+| Artifact ID | PIA-{INITIATIVE}-{NNN} |
 | Initiative | {full initiative name} |
 | Owner | {team or role — not an individual name} |
 | Version | v1.0 |
-| Status | Draft |
+| Status | DRAFT |
 | SAD Reference | {SAD artifact ID} |
 | TDD Reference | {TDD artifact ID, or N/A if not yet frozen} |
 | Governance Model Version | {version from §15 of governance-model.md} |
